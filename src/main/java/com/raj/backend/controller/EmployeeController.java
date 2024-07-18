@@ -19,7 +19,7 @@ import com.raj.backend.repository.EmployeeRepository;
 
 @RestController
 @RequestMapping("/api/employees")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://rajkumar-employee-project.onrender.com")
 public class EmployeeController 
 {
 	@Autowired
