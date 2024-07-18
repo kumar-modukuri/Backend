@@ -19,7 +19,6 @@ import com.raj.backend.repository.EmployeeRepository;
 
 @RestController
 @RequestMapping("/api/employees")
-// @CrossOrigin(origins = "https://rajkumar-fullstack-app.onrender.com")
 @CrossOrigin(origins = "http://localhost:3000")
 public class EmployeeController 
 {
