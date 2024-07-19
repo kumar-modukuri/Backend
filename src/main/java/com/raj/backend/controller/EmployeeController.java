@@ -68,14 +68,7 @@ public class EmployeeController
 	{
         try 
 		{
-            if(repo.findAll(Sort.by(Sort.Direction.ASC, "_id")) == null) 
-			{
-				return Collections.emptyList();
-			}
-			else
-			{
-				return repo.findAll(Sort.by(Sort.Direction.ASC, "_id"));
-			}
+            return repo.findAll(Sort.by(Sort.Direction.ASC, "_id"));
         } 
 		catch(Exception e) 
 		{
